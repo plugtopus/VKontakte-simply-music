@@ -1,0 +1,51 @@
+{
+   "desc": {
+      "message": "This extension simply allows to download music from Vkontakte"
+   },
+   "name": {
+      "message": "VKontakte simply music"
+   },
+   "shortname": {
+      "message": "VK simply music"
+   },
+   "lang": {
+      "message": "en"
+   },
+   "optionsBitrate": {
+      "message": "Show bitrate"
+   },
+   "showOptions": {
+      "message": "Settings"
+   },
+   "title": {
+      "message": "VKontakte simply music"
+   },
+   "lsb1": {
+      "message": "Do not show bitrate and size"
+   },
+   "lsb2": {
+      "message": "Show bitrate and size when hovering to audio"
+   },
+   "settings_title": {
+      "message": "Settings"
+   },
+   "chromeDownloadFolder": {
+      "message": "All paths to folders are relative folders for downloads. Leave the field blank, if you do not want the files to be downloaded to subfolders"
+   },
+   "laudioFolder": {
+      "message": "Folder for music downloads"
+   },
+   "save": {
+      "message": "Save changes"
+   },
+   "massDwnld": {
+      "message": "Bulk upload audio"
+   },
+   "downloadBtnTitle": {
+      "message": "Download album(if available)"
+   },
+   "downloadBtnIn": {
+      "message": "Download all"
+   }
+}
+

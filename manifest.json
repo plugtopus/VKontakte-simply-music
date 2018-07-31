@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "js/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/128.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/content.js"],
+      "matches": [ "http://*/*", "https://*/*"]
+   } ],
+   "content_security_policy": "script-src 'self' https://vk.com; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "45",
+   "name": "__MSG_name__",
+   "short_name": "__MSG_shortname__",
+   "permissions": [ "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.07.31.1",
+   "web_accessible_resources": [ "*" ]
+}
